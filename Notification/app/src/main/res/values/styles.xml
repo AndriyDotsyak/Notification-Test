@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Text View -->
+    <style name="AppTheme.TextView" parent="android:Widget.TextView">
+        <item name="android:background">@drawable/bg_tv_round_corner</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Button -->
+    <style name="AppTheme.Button.Blue" parent="android:Widget.Button">
+        <item name="android:background">@drawable/bg_btn_ring</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="AppTheme.Button.White.Transparent" parent="android:Widget.Button">
+        <item name="android:background">@drawable/bg_btn_ring</item>
+        <item name="android:backgroundTint">@color/color_white_transparent</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display1</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

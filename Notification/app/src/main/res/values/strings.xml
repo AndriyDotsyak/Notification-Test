@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Notification</string>
+
+    <!-- Fragment Notification -->
+    <string name="fn_create_notification">Create new \nnotification</string>
+    <string name="fn_plus">+</string>
+    <string name="fn_minus">–</string>
+    <string name="fn_title_notification">You create a notification</string>
+    <string name="fn_text_notification">Notification %1$d</string>
+    <!-- Fragment Notification -->
+</resources>
